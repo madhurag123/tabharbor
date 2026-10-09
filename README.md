@@ -66,3 +66,6 @@ This implementation and documentation were developed with substantial Codex assi
 ## Isolated browser verification
 
 `npm ci`, `npx playwright install --with-deps chromium`, then `npm run test:browser` exercise the actual extension APIs in a disposable Chromium profile. The Linux CI run passed; synthetic pages are used instead of personal browser data. See [browser evidence](reports/browser-integration.json).
+
+
+[Publication provenance and current verification notes](PUBLICATION.md) · [Categorized collection](https://github.com/madhurag123/portfolio-index)
